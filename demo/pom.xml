@@ -12,8 +12,11 @@
 
     <artifactId>demo</artifactId>
     <dependencies>
-        <!-- something should be here-->
-
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>utils</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-params</artifactId>
